@@ -1,0 +1,42 @@
+.visit__wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background: url(../public/back.avif);
+  padding: 20px;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visit__text{
+  max-width: 560px;
+  text-align: center;
+  color: white;
+}
+.links{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid white;
+}
+.link svg{
+  width: 22px;
+  fill: white;
+}
